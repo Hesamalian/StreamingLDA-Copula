@@ -14,5 +14,6 @@
 # Output:
 # 1-cosine(Number of topics).txt   : 1- cosine similarity between topic distributions of two consecutive documents (for example second row number is between doc0 and doc1) (near to zero means more similar)
 #lambda(Number of topics).txt   : lambda hyperparameter between topic distributions of two consecutive documents (for example second row number is between doc0 and doc1) (the higher lambda the more similar documents)
-#Perplexities(Number of topics).txt  (each row for each iteration)
-#topc10words.txt     (top-10 words , each row related to one topic)
+Perplexities(Number of topics).txt  (each row for each iteration)
+
+topc10words.txt     (top-10 words , each row related to one topic)
