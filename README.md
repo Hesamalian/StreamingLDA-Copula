@@ -4,9 +4,11 @@ To run the code, it needs to have toy_dataset.text as an example and vocabulary.
 
 
 You can run the code simply by:
+
 python Coplda.py [path2train] [Number of topics] [Number of iterations] [Removing stop words] [percent of train documents]
 
 For instance:
+
 python Coplda.py toy_dataset.txt 20 50 false 90
 
 Output:
@@ -20,6 +22,7 @@ Perplexities(Number of topics).txt  (each row for each iteration)
 topc10words.txt     (top-10 words , each row related to one topic)
 
 please use this bibtex  to cite this work: 
+
 @inproceedings{amoualian2016kdd,
  author = {Amoualian, Hesam and Clausel, Marianne and Gaussier, Eric and Amini, Massih-Reza},
  title = {Streaming-LDA: A Copula-based Approach to Modeling Topic Dependencies in Document Streams},
